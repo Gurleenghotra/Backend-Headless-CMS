@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "songs",
+  "info": {
+    "singularName": "song",
+    "pluralName": "songs",
+    "displayName": "Song"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Rating": {
+      "type": "decimal"
+    },
+    "Artist": {
+      "type": "string"
+    },
+    "Album": {
+      "type": "string"
+    }
+  }
+}
